@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/weatherapp/static/css/main.d942720e.css",
-    "main.js": "/weatherapp/static/js/main.86b38f29.js",
-    "static/js/787.eb8d15da.chunk.js": "/weatherapp/static/js/787.eb8d15da.chunk.js",
-    "index.html": "/weatherapp/index.html",
-    "main.d942720e.css.map": "/weatherapp/static/css/main.d942720e.css.map",
-    "main.86b38f29.js.map": "/weatherapp/static/js/main.86b38f29.js.map",
-    "787.eb8d15da.chunk.js.map": "/weatherapp/static/js/787.eb8d15da.chunk.js.map"
+    "main.css": "/Tinder-Clone/static/css/main.d942720e.css",
+    "main.js": "/Tinder-Clone/static/js/main.7fdff7ab.js",
+    "static/js/787.eb8d15da.chunk.js": "/Tinder-Clone/static/js/787.eb8d15da.chunk.js",
+    "index.html": "/Tinder-Clone/index.html",
+    "main.d942720e.css.map": "/Tinder-Clone/static/css/main.d942720e.css.map",
+    "main.7fdff7ab.js.map": "/Tinder-Clone/static/js/main.7fdff7ab.js.map",
+    "787.eb8d15da.chunk.js.map": "/Tinder-Clone/static/js/787.eb8d15da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d942720e.css",
-    "static/js/main.86b38f29.js"
+    "static/js/main.7fdff7ab.js"
   ]
 }
