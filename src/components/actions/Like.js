@@ -1,4 +1,5 @@
 import React from "react";
+import like from "../../misc/like.png";
 
 function Like({ userId, modifySuperficialChoices }) {
   console.log("person", userId);
@@ -11,7 +12,7 @@ function Like({ userId, modifySuperficialChoices }) {
         style={{ border: "1px solid #55E9CF" }}
         onClick={() => modifySuperficialChoices(userId, "ADD_TO_LIKED_USERS")}
       >
-        <img src='/images/misc/like.png' alt='Like'></img>
+        <img src={like} alt='Like'></img>
       </button>
     </>
   );

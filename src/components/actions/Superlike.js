@@ -1,4 +1,5 @@
 import React from "react";
+import superlike from "../../misc/superlike.png";
 
 function Superlike({ userId, modifySuperficialChoices }) {
   return (
@@ -11,7 +12,7 @@ function Superlike({ userId, modifySuperficialChoices }) {
           modifySuperficialChoices(userId, "ADD_TO_SUPERLIKED_USERS")
         }
       >
-        <img src='/images/misc/superlike.png' alt='Super Like'></img>
+        <img src={superlike} alt='Super Like'></img>
       </button>
     </>
   );

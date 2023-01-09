@@ -1,4 +1,5 @@
 import React from "react";
+import rewind from "../../misc/rewind.png";
 
 function Rewind({ userId, modifySuperficialChoices }) {
   return (
@@ -9,7 +10,7 @@ function Rewind({ userId, modifySuperficialChoices }) {
         style={{ border: "1px solid #FDC302" }}
         onClick={() => modifySuperficialChoices(userId, "REWIND_USER")}
       >
-        <img src='/images/misc/rewind.png' alt='Rewind'></img>
+        <img src={rewind} alt='Rewind'></img>
       </button>
     </>
   );

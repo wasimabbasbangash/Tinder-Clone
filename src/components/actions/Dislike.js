@@ -1,4 +1,5 @@
 import React from "react";
+import dislike from "../../misc/dislike.png";
 
 function Dislike({ userId, modifySuperficialChoices }) {
   const dislikeUser = () => {};
@@ -12,7 +13,7 @@ function Dislike({ userId, modifySuperficialChoices }) {
           modifySuperficialChoices(userId, "ADD_TO_DISLIKED_USERS")
         }
       >
-        <img src='/images/misc/dislike.png' alt='Dislike'></img>
+        <img src={dislike} alt='Dislike'></img>
       </button>
     </>
   );
