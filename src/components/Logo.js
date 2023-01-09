@@ -1,13 +1,10 @@
 import React from "react";
+import logo from "../misc/logo.png";
 
 function Logo() {
   return (
     <div>
-      <img
-        style={{ width: "max-content" }}
-        src='/images/misc/logo.png'
-        alt='Tinder logo'
-      ></img>
+      <img style={{ width: "50px" }} src={logo} alt='Tinder logo'></img>
     </div>
   );
 }
